@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+\$(document).on('${1:eventName}', '${2:selector}', function(e){
+    ${3}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>docon</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>Shortcut for $(document).on(function(e){});</description>
+</snippet>

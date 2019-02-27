@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+var ${1:ClassName} = function(${2:params}){
+	var _this = this;
+
+	function _init(){
+
+	}
+
+	_this.init = _init;
+};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>jsclass</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>Js class-like definition used by Mr. Lyubo.</description>
+</snippet>
