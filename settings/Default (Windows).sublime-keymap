@@ -1,0 +1,16 @@
+[
+	{ "keys": ["ctrl+alt+left"], "command": "jump_back" },
+	{ "keys": ["ctrl+alt+right"], "command": "jump_forward" },
+	{ "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },
+	{ "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0 } },
+	{ "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
+		[
+			{ "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
+			{ "match_all": true, "key": "selection_empty" },
+			{ "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+			{ "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+			{ "match_all": true, "key": "is_abbreviation" }
+		]
+	},
+	{ "keys": ["f6"], "command" : "clean_css" }
+]

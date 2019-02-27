@@ -1,0 +1,27 @@
+{
+	"always_show_minimap_viewport": true,
+	"auto_complete_commit_on_tab": true,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"draw_minimap_border": true,
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"ColorPicker",
+		"Compare Side-By-Side",
+		"smart less build",
+		"SublimeLinter-eslint",
+		"Vintage"
+	],
+	"rulers":
+	[
+		120
+	],
+	"show_encoding": true,
+	"soda_classic_tabs": true,
+	"tab_size": 4,
+	"theme": "SoDaReloaded Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": "false"
+}

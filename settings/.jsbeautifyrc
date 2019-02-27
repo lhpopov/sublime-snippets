@@ -1,0 +1,18 @@
+{
+  "html": {
+	"use_editor_syntax": false,
+    "allowed_file_extensions": ["htm", "html", "xhtml", "shtml", "xml", "svg", "php"]
+  },
+  "css": {
+	"use_editor_syntax": false,
+    "allowed_file_extensions": ["css", "less", "php"]
+  },
+  "js": {
+	"use_editor_syntax": false,
+    "allowed_file_extensions": ["js", "php"]
+  },
+  "json": {
+	"use_editor_syntax": false,
+    "allowed_file_extensions": ["json", "jshintrc", "jsbeautifyrc", "php"]
+  }
+}

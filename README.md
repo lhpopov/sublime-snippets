@@ -7,3 +7,5 @@ JavaScript Refactor
 JSHint Gutter
 Theme - SoDaReloaded
 TypeScript
+FileDiffs
+Emmet
